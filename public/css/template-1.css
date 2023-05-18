@@ -39,6 +39,8 @@
 .nav_link:hover {
   text-decoration:underline;
   color: blue;
+
+  opacity: 20%;
 }
 
 .nav_vertical > .nav_link {
@@ -193,4 +195,67 @@ p {
   text-overflow: ellipsis;
 }
 
+body {
+  background: red;  
+}
 
+.page {
+  background-image: url('/img/test2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.hero_text {
+  background-image: url();
+  background-attachment: local;
+  height: 50px;
+  overflow: auto;
+}
+
+.card_block {
+  /* list-style-type: upper-alpha; */
+  list-style-position: inside;
+
+  list-style-image: linear-gradient(
+    to bottom right,
+    blue,
+    red
+  );
+  
+}
+
+.card_description_item {
+  display: list-item;
+}
+
+/* .table tr {
+  border: 1px solid #343a40;
+} */
+
+.table tr td {
+  border: 1px solid #4f6983;
+  border-bottom-color: red;
+  border-right-color: blue;
+}
+
+.table {
+  table-layout: fixed;
+  width: 600px;
+
+  border-collapse: unset;
+
+  border-spacing: 20px;
+}
+
+.nav_link::before
+.nav_link::after {
+  content: open-quote;
+}
+
+.calc {
+  width: 600px;
+
+  margin-right: calc(100% - 600px);
+}
