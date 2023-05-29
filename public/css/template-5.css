@@ -299,40 +299,40 @@ gap: 40px;
 }
 
 .form_input_list {
-  display: flex;
-  gap: var(--space-m);
-  flex-direction: column;
+display: flex;
+gap: var(--space-m);
+flex-direction: column;
 }
 
 .form_input {
-  padding: var(--space-xm);
-  border: 1px solid #ced4da;
-  border-radius: var(--border-radius-s);
+padding: var(--space-xm);
+border: 1px solid #ced4da;
+border-radius: var(--border-radius-s);
 }
 
 .form_input::placeholder {
-  color: var(--color-title);
-  font-size: var(--size-d);
+color: var(--color-title);
+font-size: var(--size-d);
 }
 
 .form_checkbox {
-  display: flex;
-  gap: var(--space-s);
-  align-items: center;
+display: flex;
+gap: var(--space-s);
+align-items: center;
 }
 
 .form_checkbox > input {
-  display: none;
+display: none;
 }
 
 .form_checkbox > input ~ div {
-  border: 1px solid #767676;
-  border-radius: 4px;
-  height: 13px;
-  width: 13px;
+border: 1px solid #767676;
+border-radius: 4px;
+height: 13px;
+width: 13px;
 }
 
-.form_checkbox > input:checked ~ div {
+.form_checkbox >input:checked ~ div {
   border-color: var(--color-primary);
   background-color: var(--color-primary);
 }
